@@ -1,0 +1,15 @@
+:root{
+    --hijau: #1B9C85;
+    --biru: #4C4C6D;
+    --putih:#E8F6EF;
+    --kuning:#FFE194;
+    --shadow:#0a0a0a;
+}
+body{
+    min-height: 4000px;
+}
+.jumbotron{
+    text-align: center;
+    width: 100;
+
+}

@@ -2,20 +2,22 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Factories\HasFactory;
+
 use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
 
-class Pakanin extends Model
+class Pakanin extends Eloquent
 {
-    protected $connection = '';
-    protected $collection = '';
+    //
+    protected $connection = 'mongodb';
+    protected $collection = 'pakanin';
     /**
      * The attributes that are mass assignable.
      *
      * @var array
      */
     protected $fillable = [
-        'merk', 'prosesor'
+        'suhu','waktu','created_at','temperature','pH'
     ];
-    
+
+
 }

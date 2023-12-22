@@ -34,12 +34,12 @@ return [
     */
 
     'connections' => [
-
         'mongodb' => [
-            'driver' => 'mongodb',
-            'dsn' => env('DB_DSN'),
-            'database' => env('DB_DATABASE', 'homestead'),
-        ],
+              'driver' => 'mongodb',
+              'dsn' => env('DB_URI', 'mongodb+srv://amaw:amaw@amaw.jbdwjav.mongodb.net/?retryWrites=true&w=majority'),
+              'database' => 'amaw',
+      ],
+
 
         'sqlite' => [
             'driver' => 'sqlite',

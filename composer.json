@@ -6,12 +6,15 @@
     "license": "MIT",
     "require": {
         "php": "^8.0",
+        "code-lts/laravel-fcm": "^1.8",
         "fruitcake/laravel-cors": "^2.0.5",
-        "guzzlehttp/guzzle": "^7.2",
+        "guzzlehttp/guzzle": "^7.8",
         "jenssegers/mongodb": "^3.9",
+        "kreait/laravel-firebase": "^5.4",
         "laravel/framework": "^9.0",
         "laravel/sanctum": "^2.14",
-        "laravel/tinker": "^2.7"
+        "laravel/tinker": "^2.7",
+        "minishlink/web-push": "^8.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
