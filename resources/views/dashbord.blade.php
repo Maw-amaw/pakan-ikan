@@ -3,7 +3,7 @@
 
 <div class="row mb-5">
     <!-- Card Waktu 1 -->
-    <div class="col-lg-4 mb-lg-0 mb-4">
+    <!-- <div class="col-lg-4 mb-lg-0 mb-4">
         <div class="card z-index-2 h-100
             @if($pH < 6.5 || $pH > 8.5)
                 bg-danger text-white
@@ -18,7 +18,6 @@
                 <h6 class="text-capitalize">Waktu 1</h6>
                 <div class="card-body p-3">
                     <p class="text-sm font-weight-bold mb-0">
-                        <!-- Check temperature and pH, apply color -->
                         @if($pH < 6.5 || $pH > 8.5)
                         <span >Non aktiv</span>
                         @elseif($temperature < 17)
@@ -34,10 +33,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Card Waktu 2 -->
-    <div class="col-lg-4 mb-lg-0 mb-4">
+    <!-- <div class="col-lg-4 mb-lg-0 mb-4">
         <div class="card z-index-2 h-100
             @if($pH < 6.5 || $pH > 8.5)
                 bg-danger text-white
@@ -52,7 +51,6 @@
                 <h6 class="text-capitalize">Waktu 2</h6>
                 <div class="card-body p-3">
                     <p class="text-sm font-weight-bold mb-0">
-                        <!-- Check temperature and pH, apply color -->
                         @if($pH < 6.5 || $pH > 8.5)
                         <span style="color:white;">Non aktiv</span>
                         @elseif($temperature < 17)
@@ -68,10 +66,10 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- Card Waktu 3 -->
-    <div class="col-lg-4 mb-lg-0 mb-4">
+    <!-- <div class="col-lg-4 mb-lg-0 mb-4">
         <div class="card z-index-2 h-100
             @if($pH < 6.5 || $pH > 8.5)
                 bg-danger text-white
@@ -86,7 +84,7 @@
                 <h6 class="text-capitalize">Waktu 3</h6>
                 <div class="card-body p-3">
                     <p class="text-sm font-weight-bold mb-0">
-                        <!-- Check temperature and pH, apply color -->
+
                         @if($pH < 6.5 || $pH > 8.5)
                         <span style="color:white;">Non aktiv</span>
                         @elseif($temperature < 17)
@@ -102,7 +100,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </div>
 
 
