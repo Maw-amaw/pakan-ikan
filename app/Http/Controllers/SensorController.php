@@ -26,7 +26,7 @@ class SensorController extends Controller
     public function store(Request $request)
     {
 
-        // Simpan data ke MongoDB
+        // Simpan data ke MongoDB, haiiiiii
         $Ph = new Sensor;
         $Ph->pH = $request->pH;
         $Ph->temperature = $request->temperature;
